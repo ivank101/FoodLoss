@@ -1,0 +1,41 @@
+@import url(color.css);
+.form-group {
+    margin-bottom: 10px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  input[type="text"] {
+    width: 300px;
+  }
+  .button-container {
+    margin-top: 10px;
+  }
+  .button-container button {
+    margin-right: 10px;
+  }
+
+  /* edit */
+  .form-group {
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  span.note {
+    font-size: small;
+    color: red;
+  }

@@ -1,0 +1,12 @@
+.navbar {
+  padding: 1rem 1rem; /* Adjust the padding to resize the navbar */
+  margin: 0.5rem;
+}
+
+.navbar-brand {
+  font-size: 3rem; /* Adjust the font size to resize the brand/logo */
+}
+
+.navbar-nav .nav-link {
+  font-size: 2rem; /* Adjust the font size to resize the navigation links */
+}

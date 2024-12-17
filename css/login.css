@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url("color.css");
+
+/* Input Forms*/
+input[type="text"], input[type="password"]{
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+}
+.navbar-inverse {
+  background-color: #333;
+  border-color: #333;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  background-color: #222;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  background-color: #555;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-top-color: #777;
+  border-bottom-color: #777;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #555;
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.open>a .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>.dropdown-menu {
+  background-color: #333;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>.dropdown-menu>li>a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>.dropdown-menu>li>a:hover,
+.navbar-inverse .navbar-nav>.dropdown>.dropdown-menu>li>a:focus {
+  background-color: #222;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>.dropdown-menu>.active>a,
+.navbar-inverse .navbar-nav>.dropdown>.dropdown-menu>.active>a:hover,
+.navbar-inverse .navbar-nav>.dropdown>.dropdown-menu>.active>a:focus {
+  background-color: #555;
+}
+.logo {
+  display: inline-block;
+  width: 50px; 
+  height: 50px; 
+  background-image: url(../img/logo.png); 
+  background-size: cover;
+  background-position: center;
+}
+.custom-footer {
+  background-color: #f8f8f8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.custom-footer h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.custom-footer p {
+  font-size: 14px;
+}
+

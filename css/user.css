@@ -1,0 +1,379 @@
+/* Add this CSS at the end of your CSS file */
+
+/* Styles for the bottom right section */
+
+.bottom-right-section {
+
+    position: fixed;
+
+    bottom: 20px;
+
+    right: 20px;
+
+    z-index: 999;
+
+}
+
+
+
+
+.order-btn {
+
+    background-color: #e74c3c;
+
+    color: white;
+
+    padding: 10px 30px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+}
+
+
+
+
+/* Styles for the inventory table and buttons */
+
+.center-section {
+
+    padding: 50px 0;
+
+    text-align: center;
+
+}
+
+
+
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+
+
+table th,
+
+table td {
+
+    padding: 10px;
+
+    text-align: center;
+
+    border: 1px solid #ddd;
+
+}
+
+
+
+
+h3 {
+
+    font-size: 24px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.small-button {
+
+    background-color: #3498db;
+
+    color: white;
+
+    padding: 5px 15px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+}
+
+
+
+
+.request-button {
+
+    background-color: #27ae60;
+
+    color: white;
+
+    padding: 5px 15px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+}
+
+
+
+
+/* Styles for the pop-up modals */
+
+/* Modal container */
+
+.logout-modal {
+
+    display: none;
+
+    position: fixed;
+
+    z-index: 1;
+
+    left: 0;
+
+    top: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    overflow: auto;
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+  }
+
+ 
+
+  /* Modal content */
+  .request-modal-content {
+
+    background-color: #fff;
+
+    margin: 15% auto;
+
+    padding: 20px;
+
+    border: 1px solid #888;
+
+    width: 30%;
+
+    border-radius: 5px;
+
+    position: relative;
+
+  }
+  .modal-content {
+
+    background-color: #fff;
+
+    margin: 15% auto;
+
+    padding: 20px;
+
+    border: 1px solid #888;
+
+    width: 80%;
+
+    border-radius: 5px;
+
+    position: relative;
+
+  }
+
+  .logmodal-content {
+
+    background-color: #fff;
+
+    margin: 15% auto;
+
+    padding: 20px;
+
+    border: 1px solid #141313;
+
+    width: 50%;
+
+    border-radius: 5px;
+
+    position: relative;
+
+  }
+
+ 
+
+  /* Close button */
+
+  .close {
+
+    color: #aaa;
+
+    float: right;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+  }
+
+ 
+
+  .close:hover,
+
+  .close:focus {
+
+    color: #000;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+  }
+
+ 
+
+  /* Modal header */
+
+  .modal h2 {
+
+    color: #333;
+
+    margin-bottom: 20px;
+
+  }
+
+ 
+
+  /* Modal content text */
+
+  .modal p {
+
+    margin-bottom: 10px;
+
+  }
+
+ 
+
+  /* Button container */
+
+  .button-container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-top: 20px;
+
+  }
+
+ 
+
+  /* Confirm and Cancel buttons */
+
+  .confLog,
+
+  .Cancel {
+
+    color: #ff0000;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    flex: 1;
+
+    text-align: center;
+
+    transition: background-color 0.3s;
+
+  }
+
+ 
+
+  .confLog:hover,
+
+  .Cancel:hover {
+
+    background-color: #ffcccc;
+
+  }
+
+ 
+
+  /* Vertical line between buttons */
+
+  .vertical-line {
+
+    width: 1px;
+
+    height: 100%;
+
+    background-color: #888;
+
+    margin: 0 10px;
+
+  }
+
+ 
+
+
+
+
+.fa-shopping-cart {
+
+    margin-right: 10px; /* Adjust the spacing as needed */
+
+    font-size: 20px; /* Adjust the icon size as needed */
+
+}
+
+/* Thẻ chứa hình đại diện và tên người dùng */
+
+.dropdown-toggle span {
+
+    display: inline-block; /* Hiển thị dưới dạng block */
+
+    line-height: 30px; /* Chiều cao của thanh navbar */
+
+    vertical-align: middle; /* Canh giữa theo chiều dọc */
+
+}
+
+
+
+
+/* Hình đại diện */
+
+.user-avatar-navbar {
+
+    width: 30px; /* Kích thước hình đại diện */
+
+    height: 30px;
+
+    border-radius: 50%; /* Định dạng thành hình tròn */
+
+    margin-right: 5px; /* Khoảng cách giữa hình đại diện và tên người dùng */
+
+}

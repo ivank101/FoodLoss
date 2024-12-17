@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OutSeaS管理システム</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/delivery.css" />
+    <link rel="stylesheet" href="../css/color.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body style="height: 1000px">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../w_aboutUs/about.html">OutSeaS</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="../w_Landing_Page/landing.html">ホーム</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+              >ストア用<span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="../w_Store_Inventory/StoreInvnt.html"
+                  >ストアフロント</a
+                >
+              </li>
+              <li><a href="../w_disposal_page/registerDisposal.html">廃棄登録</a></li>
+              <li><a href="../w_store_page/storeInfo.html">ストア情報</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="../w_disposal_page/deliveryDisposal.html">廃棄情報</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="../w_Account_Register/Register.html"
+              ><span class="glyphicon glyphicon-user"></span> 新規登録</a
+            >
+          </li>
+          <li id="user">
+            <a href="../login.php"
+              ><span class="glyphicon glyphicon-log-in"></span> ログイン</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center"></div>
+      <h1 class="text-center">配達情報</h1>
+        <div id="deliveryInfo" class="text-center">
+          <h3>配達状況</h3>
+          <table class="table table-hover table-striped" id="deliInfoTable">
+            <thead>
+              <tr>
+                <th id="deliTimeInfo">時間帯</th>
+                <th id="deliID">配達ID</th>
+                <th id="deliStatus">ステータス</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="deliLatest">
+                <td>123</td>
+                <td>test</td>
+                <td>what</td>
+              </tr>
+              <tr>
+                <td>123</td>
+                <td>test</td>
+                <td>what</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <br />
+        <div id="itemDelivery" class="text-center">
+          <h3>配達するアイテム</h3>
+          <table class="table table-hover table-striped" id="itemInfoTable">
+            <thead>
+              <tr class="text-center">
+                <th id="itemInfo">アイテムID</th>
+                <th id="itemName">商品名</th>
+                <th id="amount">個数</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="deliLatest">
+                <td>123</td>
+                <td>test</td>
+                <td>what</td>
+              </tr>
+              <tr>
+                <td>123</td>
+                <td>test</td>
+                <td>what</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <br>
+      <div id="aboutDelivery">
+        <div class="jumbotron">
+          <h3 class="text-center">配達の問い合わせ</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+            suscipit adipisci natus veniam eaque, inventore nam quod ex!
+            Eligendi placeat rerum ab dolor dolorum id vitae totam in officia
+            nobis.
+          </p>
+          <h4 class="text-center">問い合わせ先</h4>
+          <div class="row">
+            <div class="col-sm-6">
+              <p>
+                廃棄取集株式会社
+                <br />大阪市都島区中野町2-4-12
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <p>電話番号： 01-234-567-890</p>
+            </div>
+          </div>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <footer class="custom-footer">
+      <div class="container fixed-bottom">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>About Us</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Contact</h5>
+            <ul class="list-unstyled">
+              <li>Phone: 123-356-7890</li>
+              <li>Email: info@example.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function userCheck() {
+        let = document.getElementById("user");
+        if (user == loggedIn) {
+          element.innerHTML =
+            '<a href="#" onclick="logout();"><span class="glyphicon glyphicon-log-out"></span> ログアウト</a>';
+        }
+      }
+      function logout() {
+        // Perform logout operation
+        // You can make an AJAX request to a logout endpoint on the server-side
+        // Or clear any session/cookie/local storage data
+
+        // Redirect the user to the login page
+        window.location.href = "login.html";
+      }
+    </script>
+  </body>
+</html>

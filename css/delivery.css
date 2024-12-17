@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url("color.css");
+
+#deliveryInfo {
+    margin: 0 70px;
+    padding: 10px;
+    text-align: center;
+}
+#deliInfoTable {
+    margin: 0px 50px;
+    padding: 5px;
+    width: fit-content;
+}
+#deliInfoTable thead {
+    padding: 10px;
+    font-size: large;
+}
+#deliTimeInfo {
+    width: 10%;
+}
+#deliID {
+    width: 10%;
+}
+#deliStatus {
+    width: 50%;
+}
+#deliLatest {
+    padding: 10px;
+    font-size:x-large;
+}
+#aboutDelivery {
+    padding: 20px 30px;
+    margin: 10px 10px;
+}

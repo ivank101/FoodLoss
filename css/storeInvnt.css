@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url("color.css");
+
+.center-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inventory {
+  width: 100%;
+}
+#inventory thead {
+  padding: 5px;
+  text-align: center;
+  background-color: var(--dark-color-2);
+  color: var(--text-color-white);
+}
+
+#deleteColumn {
+  width: 70px;
+}
+
+#dashboard {
+  background-color: var(--dark-color-1);
+  color: var(--text-color-white);
+  text-align: center;
+}
+#dashboard h3 {
+  padding: 10px 5px;
+}
+.dash-btn {
+  background-color: var(--light-color-2);
+}
+.custom-btn-group {
+  width: 100%;
+}
+.custom-btn-group .btn {
+  width: 100%;
+}
+#addItem {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#addItem h3 {
+  margin: 20px;
+  padding: 10px;
+  color: var(--light-color-1);
+  background-color: var(--dark-color-2);
+  width: 80%;
+}
+
+#addItem form {
+  margin-top: 10px; /* Adjust the top margin as needed */
+}
+
+#itemForm {
+  margin: 50px 0px;
+}
